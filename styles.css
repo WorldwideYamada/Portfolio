@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:#2B303A;
+    color: #92DCE5;
+    text-align: center;
+}
+
+#container{
+    border: 2px solid #92DCE5;
+    border-radius: 50px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    min-height: 80vh;
+    min-width:80vh;
+    grid-template-columns: auto auto;
+    display: grid;
+    align-items: center;;
+}
+
+.grid-item{
+    column-count: 1;
+}
+
+#box2{
+    padding: 30px;
+    padding: 50px;
+}
+
+#ryou {
+    margin-left: 100px;
+}
